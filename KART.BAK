@@ -1,0 +1,19 @@
+#include <iostream.h>
+#include <conio.h>
+
+float total, bf, drk, price, dish, lch, add;
+
+void main(){
+
+clrscr();
+	cout<<"Welcome To our Karindiryas Store"<<endl;
+	cout<<"[1] Breakfast\n";
+	cout<<"[2] LunchFood\n";
+	cout<<"Please Select your prefered choice food\n";
+	cin>>dish
+	cout<<"Drinks\n";
+	cout<<"[1] Water...............Free\n"
+	cout<<"
+getch();
+
+}

@@ -1,0 +1,99 @@
+#include <iostream.h>
+#include <conio.h>
+
+float total, bf, drk, dish, price, lch, add;
+
+
+void main(){
+clrscr();
+
+	cout<<"Welcome To Our Karindiryas Store"<<endl;
+	cout<<"[1] BreakFast"<<endl;
+	cout<<"[2] LunchFood"<<endl;
+	cout<<"Please Select your prefered choice"<<endl;
+	cin>>dish;
+	if (dish == 1){
+		cout<<"[1]Boiled Egg.......12.10php"<<endl;
+		cout<<"[2]Sunny Sideup Egg.10.25php"<<endl;
+		cout<<"[3]Hot Dog..........10.6php"<<endl;
+		cout<<"[4]Fried Rice.......15.7php"<<endl;
+		cout<<"Please Select your meal"<<endl;
+		cin>>bf;
+		if (bf == 1){
+			cout<<"Your Selected meal is Boiled Egg"<<endl;
+			price = 12.10;
+		}
+		else if (bf == 2){
+			cout<<"Your Selected meal is Sunny Sideup Egg"<<endl;
+			price = 10.25;
+		}
+		else if (bf == 3){
+			cout<<"Your Selected meal is Hot Dog"<<endl;
+			price = 10.6;
+		}
+		else if (bf == 4){
+			cout<<"Your Selected meal is Fried Rice"<<endl;
+			price = 15.7;
+		}
+	}
+	else if (lch == 2){
+		cout<<"[1]ADOBO...............35.10php"<<endl;
+		cout<<"[2]Chicken Curry........30.25php"<<endl;
+		cout<<"[3]Sinigang.............40.6php"<<endl;
+		cout<<"[4]Nilagang baboy.......40.7php"<<endl;
+		cout<<"[5]Pakbet...............20.50php"<<endl;
+		cout<<"Please Select your lunch"<<endl;
+		cin>>lch;
+			if (lch == 1){
+				cout<<"Your Selected meal is ADOBO"<<endl;
+				price = 35.10;
+
+			}
+			else if (lch == 2){
+				cout<<"Your Selected meal is Chicken Curry"<<endl;
+				price = 30.25;
+
+			}
+			else if (lch == 3){
+				cout<<"Your Selected meal is Sinigang"<<endl;
+				price = 40.6;
+
+
+			}
+			else if (lch == 4){
+				cout<<"Your Selected meal is Nilagang Baboy"<<endl;
+				price = 40.7;
+
+			}
+			else if (lch == 5){
+				cout<<"Your Selected meal is Pinakbet"<<endl;
+				price = 20.50;
+			}
+
+
+
+
+	}
+	cout<<"Drinks"<<endl;
+	cout<<"[1]Water.........Free"<<endl;
+	cout<<"[2]Coke..........15.25"<<endl;
+	cout<<"[3]Sprite........15.5"<<endl;
+	cout<<"[4]Pepsi.........15.75"<<endl;
+	cout<<"[5]7 Up..........14.25"<<endl;
+	cin>>drk;
+		if (drk == 1){
+			cout<<"Water"<<endl;
+			add = + 0;
+		}
+		else if (drk == 2){
+			cout<<"Coke"<<endl;
+			add = + 15.25;
+
+		}
+
+	total = price + add;
+	cout<<"Your Total Bill is"<<total;
+
+
+getch();
+}
